@@ -4,14 +4,19 @@ import requests
 import sys
 from subprocess import call
 import uuid
-
+import subprocess
+import os
 
 headers = {
             "KEY": "ADMIN123",
             "accept": "application/json",
             "Content-Type": "application/json" 
 }
+if str(sys.argv[1]) == "server":
+  os.chdir('caldera')
+  subprocess.Popen(['gnome-terminal', '--', 'bash', '-c', 'python3 server.py --insecure; exec $SHELL'])
 
+#Ejecute 'python3 red-team.py server' para iniciar el servidor
 #Ejecute 'python3 red-team.py agente crear' para crear un agente
 #Ejecute 'python3 red-team.py agente editar' para editar un agente
 #Ejecute 'python3 red-team.py agente eliminar' para eliminar un agente
