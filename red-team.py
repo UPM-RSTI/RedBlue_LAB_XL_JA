@@ -12,12 +12,17 @@ headers = {
             "Content-Type": "application/json" 
 }
 
-
+#Ejecute 'python3 red-team.py agente crear' para crear un agente
+#Ejecute 'python3 red-team.py agente editar' para editar un agente
+#Ejecute 'python3 red-team.py agente eliminar' para eliminar un agente
+#Ejecute 'python3 red-team.py operacion crear' para crear una operacion con su respectivo adversario
+#Ejecute 'python3 red-team.py operacion editar' para editar una operacion
+#Ejecute 'python3 red-team.py operacion eliminar' para eliminar una operacion
 # =======================================================================================================================================
 #   AGENTE
 # =======================================================================================================================================
 if str(sys.argv[1]) == "agente":
-    
+    #json del agente
     data = {
       "privilege": "string",
       "server": "string",
@@ -58,7 +63,9 @@ if str(sys.argv[1]) == "agente":
     }
 
     if str(sys.argv[2]) == "crear":
-      url = input("Escriba la URL del dispositivo a ejecutar: ")
+      #datos proporcionados por el usuario
+
+      url = input("Escriba la IP del dispositivo a ejecutar: ")
       data["host_ip_addrs"] = [str(url)]
       data["upstream_dest"] = "http://"+str(url)+":8888"
       data["paw"] = input("Escriba el paw (identificador único del agente): ")
@@ -79,6 +86,7 @@ if str(sys.argv[1]) == "agente":
     #  data["host"] = input("Enter host: ")      
       print("Para editar el agente ejecute: 'python3 red-team.py editar'")
 
+      #peticion POST a la 
       try:
         response = requests.post("http://"+url+":8888/api/v2/agents", headers = headers, json = data)
         response.raise_for_status()
@@ -90,7 +98,7 @@ if str(sys.argv[1]) == "agente":
 
   
     elif str(sys.argv[2]) == "editar":
-      url = input("Escriba la URL del dispositivo a ejecutar: ")
+      url = input("Escriba la IP del dispositivo a ejecutar: ")
       response = requests.get("http://"+url+":8888/api/v2/agents", headers = headers)
       data = response.json()
 
@@ -125,7 +133,7 @@ if str(sys.argv[1]) == "agente":
         print('Agente editado correctamente.')
 
     elif str(sys.argv[2]) == "eliminar":
-      url = input("Escriba la URL del dispositivo a ejecutar: ")
+      url = input("Escriba la IP del dispositivo a ejecutar: ")
       response = requests.get("http://"+url+":8888/api/v2/agents", headers = headers)
       data = response.json()
 
@@ -156,7 +164,7 @@ elif str(sys.argv[1]) == "operacion":
   
   if str(sys.argv[2]) == "crear":
     
-    url = input("Escriba la URL del dispositivo a ejecutar: ")
+    url = input("Escriba la IP del dispositivo a ejecutar: ")
     
     response = requests.get("http://"+url+":8888/api/v2/adversaries", headers = headers)
     data = response.json()
@@ -326,7 +334,7 @@ elif str(sys.argv[1]) == "operacion":
 
   elif str(sys.argv[2]) == "editar":
      
-    url = input("Escriba la URL del dispositivo a ejecutar: ")
+    url = input("Escriba la IP del dispositivo a ejecutar: ")
     response = requests.get("http://"+url+":8888/api/v2/operations", headers = headers)
     data = response.json()
 
@@ -356,7 +364,7 @@ elif str(sys.argv[1]) == "operacion":
           print(f"Operacion editada correctamente")
 
   elif str(sys.argv[2]) == "eliminar":
-    url = input("Escriba la URL del dispositivo a ejecutar: ")
+    url = input("Escriba la IP del dispositivo a ejecutar: ")
     response = requests.get("http://"+url+":8888/api/v2/operations", headers = headers)
     data = response.json()
 
