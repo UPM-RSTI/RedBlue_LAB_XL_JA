@@ -13,7 +13,7 @@ headers = {
             "Content-Type": "application/json" 
 }
 if str(sys.argv[1]) == "server":
-  os.chdir('caldera')
+  #os.chdir('caldera')
   subprocess.Popen(['gnome-terminal', '--', 'bash', '-c', 'python3 server.py --insecure; exec $SHELL'])
 
 #Ejecute 'python3 red-team.py server' para iniciar el servidor
