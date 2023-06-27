@@ -1,0 +1,23 @@
+------------------------WINDOWS-------------------------------------
+Name: Event - Service Processes (children of services.exe) 
+ATT&CK: T1035
+Query: search process create where 
+    parent_image_path == "c:\\windows\\system32\\services.exe"
+Name: Tools (Microsoft) - powershell.exe - Windows PowerShell Engine 
+ATT&CK: T1086
+Query: search process create where 
+    exe == "powershell.exe"
+Name: Tool (Microsoft) - Zip a folder with powershell for staging in temp 
+ATT&CK: T1074
+Query: search process create where 
+    command_line == "*Compress-Archive*" or command_line == "* -Path *" or command_line == "* -DestintationPath*" or command_line == "*$env:TEMP*"
+    
+-------------------------Linux--------------------
+Name: Tool (Linux) - Archive Collected Data 
+ATT&CK: N/A
+Query: search process create where 
+    command_line == "*zip*" or (command_line == "gzip" and command_line == "*-f*") or (command_line == "tar" and command_line == "*-c*")
+Name: Tool (Linux) - Data Staged: Local Data Staging 
+ATT&CK: T1074
+Query: search process create where 
+    command_line == "zip" or command_line == "* -path *" or command_line == "cp" or command_line == "*/temp*" or command_line == "*mv*" or command_line == "*mkdir*"   
