@@ -1,0 +1,2990 @@
+[
+  {
+    "collection": "data_model_event",
+    "content": [
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773b9",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.789000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/bin/sh /usr/bin/which gzip",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "980",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.131000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-980"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773ba",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.797000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mv -f -- /var/log//dmesg.3.gz /var/log//dmesg.4.gz",
+          "exe": "mv",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mv",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "984",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.132000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-984"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773bf",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.827000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "gzip -f -9 /var/log//dmesg.0",
+          "exe": "gzip",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/gzip",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "989",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.133000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-989"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773c0",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.829000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mv -f -- /var/log//dmesg.2.gz /var/log//dmesg.3.gz",
+          "exe": "mv",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mv",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "987",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.132000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-987"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773c5",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.854000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mv -f -- /var/log//dmesg.1.gz /var/log//dmesg.2.gz",
+          "exe": "mv",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mv",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "988",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.132000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-988"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773c6",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.856000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/bin/sh -c gzip",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "tar",
+          "parent_image_path": "/usr/bin/tar",
+          "pid": "3397",
+          "ppid": "3396",
+          "terminal_session_id": "tar",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:36:19.484000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:36:19-3397"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773ca",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.882000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mv -f -- /var/log//dmesg.0.gz /var/log//dmesg.1.gz",
+          "exe": "mv",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mv",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "990",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.133000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-990"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773ce",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.903000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "gzip",
+          "exe": "gzip",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/gzip",
+          "integrity_level": "no level",
+          "parent_exe": "tar",
+          "parent_image_path": "/usr/bin/tar",
+          "pid": "3398",
+          "ppid": "3397",
+          "terminal_session_id": "tar -P -zcf //staged.tar.gz //staged",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:36:19.484000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:36:19-3398"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773d0",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.916000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mv -f -- /var/log/dmesg.new /var/log/dmesg",
+          "exe": "mv",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mv",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "995",
+          "ppid": "609",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.133000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-995"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773d4",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.938000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p /run/systemd/generator/openvpn.service.wants",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2438",
+          "ppid": "2431",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:38.007000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:38-2438"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773d7",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.951000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp -av /var/snap/core22/750 /var/snap/core22/766",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2453",
+          "ppid": "915",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:38.208000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:38-2453"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773da",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.964000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p /run/systemd/generator/openvpn.service.wants",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2512",
+          "ppid": "2498",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.042000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2512"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773dd",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.977000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p /run/systemd/generator/openvpn.service.wants",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2596",
+          "ppid": "2582",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.306000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2596"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef44e17adbd76d773e0",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:52.988000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp -av /root/snap/dotnet-sdk/210 /root/snap/dotnet-sdk/212",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2605",
+          "ppid": "916",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.307000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2605"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773e3",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.005000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp -av /var/snap/dotnet-sdk/210 /var/snap/dotnet-sdk/212",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2607",
+          "ppid": "916",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.307000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2607"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773e6",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.018000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp -av /home/linux-atacada/snap/dotnet-sdk/210 /home/linux-atacada/snap/dotnet-sdk/212",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2603",
+          "ppid": "916",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.307000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2603"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773e9",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.030000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p /run/systemd/generator/openvpn.service.wants",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2640",
+          "ppid": "2626",
+          "terminal_session_id": "/bin/sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.569000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2640"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773ec",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.042000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c mkdir -p staged &amp;&amp; echo $PWD/staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "2687",
+          "ppid": "2644",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.841000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2687"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773ef",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.052000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p staged",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2688",
+          "ppid": "2687",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.841000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2688"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773f2",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.064000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp /usr/share/sounds/alsa/Front_Right.wav //staged",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2783",
+          "ppid": "2782",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.131000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2783"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773f5",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.077000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c cp /usr/share/sounds/alsa/Front_Right.wav //staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "2782",
+          "ppid": "2644",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.131000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2782"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773f8",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.087000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp /usr/share/sounds/alsa/Side_Right.wav //staged",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2811",
+          "ppid": "2810",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.132000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2811"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773fb",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.099000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c cp /usr/share/sounds/alsa/Side_Right.wav //staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2810",
+          "ppid": "2647",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.132000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2810"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d773fe",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.113000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/share/logstash/jdk/bin/java -cp /usr/share/logstash/logstash-core/lib/jars/animal-sniffer-annotations-1.14.jar:/usr/share/logstash/logstash-core/lib/jars/checker-compat-qual-2.0.0.jar:/usr/share/logstash/logstash-core/lib/jars/commons-codec-1.14.jar:/usr/share/logstash/logstash-core/lib/jars/commons-compiler-3.1.0.jar:/usr/share/logstash/logstash-core/lib/jars/commons-logging-1.2.jar:/usr/share/logstash/logstash-core/lib/jars/error_prone_annotations-2.1.3.jar:/usr/share/logstash/logstash-core/lib/jars/google-java-format-1.1.jar:/usr/share/logstash/logstash-core/lib/jars/guava-24.1.1-jre.jar:/usr/share/logstash/logstash-core/lib/jars/j2objc-annotations-1.1.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-annotations-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-core-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-databind-2.9.10.8.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-dataformat-cbor-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-dataformat-yaml-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/janino-3.1.0.jar:/usr/share/logstash/logstash-core/lib/jars/javassist-3.26.0-GA.jar:/usr/share/logstash/logstash-core/lib/jars/jruby-complete-9.2.20.1.jar:/usr/share/logstash/logstash-core/lib/jars/jsr305-1.3.9.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-1.2-api-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-api-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-core-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-jcl-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-slf4j-impl-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/logstash-core.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.commands-3.6.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.contenttype-3.4.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.expressions-3.4.300.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.filesystem-1.3.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.jobs-3.5.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.resources-3.7.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.runtime-3.7.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.app-1.3.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.common-3.6.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.preferences-3.4.1.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.registry-3.5.101.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.jdt.core-3.10.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.osgi-3.7.1.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.text-3.5.101.jar:/usr/share/logstash/logstash-core/lib/jars/reflections-0.9.11.jar:/usr/share/logstash/logstash-core/lib/jars/slf4j-api-1.7.30.jar:/usr/share/logstash/logstash-core/lib/jars/snakeyaml-1.23.jar org.logstash.launchers.JvmOptionsParser /usr/share/logstash /etc/logstash/jvm.options",
+          "exe": "java",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/share/logstash/jdk/bin/java",
+          "integrity_level": "no level",
+          "parent_exe": "bash",
+          "parent_image_path": "/usr/bin/bash",
+          "pid": "2969",
+          "ppid": "2959",
+          "terminal_session_id": "/bin/bash",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.786000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2969"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77401",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.126000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/share/logstash/jdk/bin/java -Xms1g -Xmx1g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djdk.io.File.enableADS=true -Djruby.compile.invokedynamic=true -Djruby.jit.threshold=0 -Djruby.regexp.interruptible=true -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/urandom -Dlog4j2.isThreadContextMapInheritable=true -cp /usr/share/logstash/logstash-core/lib/jars/animal-sniffer-annotations-1.14.jar:/usr/share/logstash/logstash-core/lib/jars/checker-compat-qual-2.0.0.jar:/usr/share/logstash/logstash-core/lib/jars/commons-codec-1.14.jar:/usr/share/logstash/logstash-core/lib/jars/commons-compiler-3.1.0.jar:/usr/share/logstash/logstash-core/lib/jars/commons-logging-1.2.jar:/usr/share/logstash/logstash-core/lib/jars/error_prone_annotations-2.1.3.jar:/usr/share/logstash/logstash-core/lib/jars/google-java-format-1.1.jar:/usr/share/logstash/logstash-core/lib/jars/guava-24.1.1-jre.jar:/usr/share/logstash/logstash-core/lib/jars/j2objc-annotations-1.1.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-annotations-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-core-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-databind-2.9.10.8.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-dataformat-cbor-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/jackson-dataformat-yaml-2.9.10.jar:/usr/share/logstash/logstash-core/lib/jars/janino-3.1.0.jar:/usr/share/logstash/logstash-core/lib/jars/javassist-3.26.0-GA.jar:/usr/share/logstash/logstash-core/lib/jars/jruby-complete-9.2.20.1.jar:/usr/share/logstash/logstash-core/lib/jars/jsr305-1.3.9.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-1.2-api-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-api-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-core-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-jcl-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/log4j-slf4j-impl-2.17.1.jar:/usr/share/logstash/logstash-core/lib/jars/logstash-core.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.commands-3.6.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.contenttype-3.4.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.expressions-3.4.300.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.filesystem-1.3.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.jobs-3.5.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.resources-3.7.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.core.runtime-3.7.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.app-1.3.100.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.common-3.6.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.preferences-3.4.1.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.equinox.registry-3.5.101.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.jdt.core-3.10.0.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.osgi-3.7.1.jar:/usr/share/logstash/logstash-core/lib/jars/org.eclipse.text-3.5.101.jar:/usr/share/logstash/logstash-core/lib/jars/reflections-0.9.11.jar:/usr/share/logstash/logstash-core/lib/jars/slf4j-api-1.7.30.jar:/usr/share/logstash/logstash-core/lib/jars/snakeyaml-1.23.jar org.logstash.Logstash --path.settings /etc/logstash -f /etc/logstash/conf.d/logstash.conf",
+          "exe": "java",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/share/logstash/jdk/bin/java",
+          "integrity_level": "no level",
+          "parent_exe": "sudo",
+          "parent_image_path": "/usr/bin/sudo",
+          "pid": "2959",
+          "ppid": "2958",
+          "terminal_session_id": "sudo",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.843000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2959"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77404",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.136000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c mkdir -p staged &amp;&amp; echo $PWD/staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "3130",
+          "ppid": "3108",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:30:55.422000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:30:55-3130"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77407",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.148000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "mkdir -p staged",
+          "exe": "mkdir",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/mkdir",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3131",
+          "ppid": "3130",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:30:55.422000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:30:55-3131"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d7740a",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.158000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp /usr/share/sounds/alsa/Front_Right.wav //staged",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3303",
+          "ppid": "3302",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:34:01.066000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:34:01-3303"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d7740d",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.169000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c cp /usr/share/sounds/alsa/Front_Right.wav //staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3302",
+          "ppid": "3111",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:34:01.066000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:34:01-3302"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77410",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.180000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp /usr/share/sounds/alsa/Side_Right.wav //staged",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3347",
+          "ppid": "3346",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:34:44.200000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:34:44-3347"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77413",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.191000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c cp /usr/share/sounds/alsa/Side_Right.wav //staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3346",
+          "ppid": "3111",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:34:44.200000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:34:44-3346"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77416",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.200000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c cp /usr/share/sounds/alsa/Rear_Center.wav //staged",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "3367",
+          "ppid": "3108",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:35:24.334000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:35:24-3367"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bef54e17adbd76d77419",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:36:53.213000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "cp /usr/share/sounds/alsa/Rear_Center.wav //staged",
+          "exe": "cp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/cp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3368",
+          "ppid": "3367",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:35:24.335000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:35:24-3368"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775ea",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.088000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/bin/xkbcomp -w 1 -R/usr/share/X11/xkb -xkm - -em1 The XKEYBOARD keymap compiler (xkbcomp) reports: -emp &gt;  -eml Errors from xkbcomp are not fatal to the X server /tmp/server-0.xkm",
+          "exe": "xkbcomp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/xkbcomp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1039",
+          "ppid": "1038",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.239000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1039"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775ec",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.109000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c \"/usr/bin/xkbcomp\" -w 1 \"-R/usr/share/X11/xkb\" -xkm \"-\" -em1 \"The XKEYBOARD keymap compiler (xkbcomp) reports:\" -emp \"&gt; \" -eml \"Errors from xkbcomp are not fatal to the X server\" \"/tmp/server-0.xkm\"",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "Xorg",
+          "parent_image_path": "/usr/lib/xorg/Xorg",
+          "pid": "1038",
+          "ppid": "880",
+          "terminal_session_id": "/usr/lib/xorg/Xorg",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.239000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1038"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775ee",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.117000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/bin/xkbcomp -w 1 -R/usr/share/X11/xkb -xkm - -em1 The XKEYBOARD keymap compiler (xkbcomp) reports: -emp &gt;  -eml Errors from xkbcomp are not fatal to the X server /tmp/server-0.xkm",
+          "exe": "xkbcomp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/xkbcomp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1068",
+          "ppid": "1067",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.486000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1068"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775f0",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.126000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c \"/usr/bin/xkbcomp\" -w 1 \"-R/usr/share/X11/xkb\" -xkm \"-\" -em1 \"The XKEYBOARD keymap compiler (xkbcomp) reports:\" -emp \"&gt; \" -eml \"Errors from xkbcomp are not fatal to the X server\" \"/tmp/server-0.xkm\"",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "Xorg",
+          "parent_image_path": "/usr/lib/xorg/Xorg",
+          "pid": "1067",
+          "ppid": "880",
+          "terminal_session_id": "/usr/lib/xorg/Xorg",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.486000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1067"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775f2",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.139000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list general --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1109",
+          "ppid": "1108",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.823000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1109"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775f4",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.157000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list general --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1108",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.823000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1108"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775f6",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.215000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list kvstore --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1158",
+          "ppid": "1157",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1158"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775f8",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.230000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list watchdog --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1161",
+          "ppid": "1160",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1161"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775fa",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.247000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list sslConfig --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1163",
+          "ppid": "1162",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1163"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775fc",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.276000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "btool server list httpServer --no-log",
+          "exe": "btool",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/btool",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1165",
+          "ppid": "1164",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1165"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d775fe",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.292000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list kvstore --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1157",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1157"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77600",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.303000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list watchdog --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1160",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1160"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77602",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.317000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list sslConfig --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1162",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1162"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77604",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.328000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list httpServer --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1164",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:31.986000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:31-1164"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77606",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.364000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list general --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1173",
+          "ppid": "1172",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.345000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1173"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77608",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.375000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list general --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1172",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.345000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1172"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7760a",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.384000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list httpServer --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1165",
+          "ppid": "1164",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.345000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1165"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7760c",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.401000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list httpServerListener: --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1188",
+          "ppid": "1186",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.346000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1188"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7760e",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.413000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list sslConfig --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1190",
+          "ppid": "1189",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.346000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1190"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77610",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.423000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list httpServerListener: --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1186",
+          "ppid": "861",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.346000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1186"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77612",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.431000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list sslConfig --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunk",
+          "parent_image_path": "/opt/splunkforwarder/bin/splunk",
+          "pid": "1189",
+          "ppid": "861",
+          "terminal_session_id": "/opt/splunkforwarder/bin/splunk _internal_launch_under_systemd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.346000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1189"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77614",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.457000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list replication_port --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1251",
+          "ppid": "1250",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.714000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1251"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77616",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.466000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/opt/splunkforwarder/bin/splunkd btool server list general --no-log",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/opt/splunkforwarder/bin/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1253",
+          "ppid": "1252",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.714000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1253"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77618",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.478000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list replication_port --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunk",
+          "parent_image_path": "/opt/splunkforwarder/bin/splunk",
+          "pid": "1250",
+          "ppid": "861",
+          "terminal_session_id": "/opt/splunkforwarder/bin/splunk _internal_launch_under_systemd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.714000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1250"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7761a",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.487000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c btool server list general --no-log",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunk",
+          "parent_image_path": "/opt/splunkforwarder/bin/splunk",
+          "pid": "1252",
+          "ppid": "861",
+          "terminal_session_id": "/opt/splunkforwarder/bin/splunk _internal_launch_under_systemd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:32.714000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:32-1252"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7761c",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.512000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/libexec/gnome-shell-calendar-server",
+          "exe": "gnome-shell-calendar-server",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/libexec/gnome-shell-calendar-server",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1321",
+          "ppid": "1320",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:33.081000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:33-1321"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d7761e",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.520000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/bin/xkbcomp -w 1 -R/usr/share/X11/xkb -xkm - -em1 The XKEYBOARD keymap compiler (xkbcomp) reports: -emp &gt;  -eml Errors from xkbcomp are not fatal to the X server /tmp/server-0.xkm",
+          "exe": "xkbcomp",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/xkbcomp",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "1326",
+          "ppid": "1325",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:33.081000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:33-1326"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77620",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.531000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c \"/usr/bin/xkbcomp\" -w 1 \"-R/usr/share/X11/xkb\" -xkm \"-\" -em1 \"The XKEYBOARD keymap compiler (xkbcomp) reports:\" -emp \"&gt; \" -eml \"Errors from xkbcomp are not fatal to the X server\" \"/tmp/server-0.xkm\"",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "Xorg",
+          "parent_image_path": "/usr/lib/xorg/Xorg",
+          "pid": "1325",
+          "ppid": "880",
+          "terminal_session_id": "/usr/lib/xorg/Xorg",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:33.081000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:33-1325"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77622",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.543000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/libexec/evolution-data-server/evolution-alarm-notify",
+          "exe": "evolution-alarm-notify",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/libexec/evolution-data-server/evolution-alarm-notify",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1487",
+          "ppid": "1206",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:33.749000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:33-1487"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77624",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.563000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "/usr/libexec/gnome-terminal-server",
+          "exe": "gnome-terminal-server",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/libexec/gnome-terminal-server",
+          "integrity_level": "no level",
+          "parent_exe": "systemd",
+          "parent_image_path": "/usr/lib/systemd/systemd",
+          "pid": "2288",
+          "ppid": "853",
+          "terminal_session_id": "/lib/systemd/systemd --user",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:37.370000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:37-2288"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77626",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.572000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "./splunkd -server http://192.168.122.4:8888 -group red -v",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "bash",
+          "parent_image_path": "/usr/bin/bash",
+          "pid": "2644",
+          "ppid": "2312",
+          "terminal_session_id": "bash",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.569000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2644"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494bfee4e17adbd76d77628",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T21:41:02.583000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "./splunkd -server http://192.168.122.4:8888 -group red -v",
+          "exe": "splunkd",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/splunkd",
+          "integrity_level": "no level",
+          "parent_exe": "bash",
+          "parent_image_path": "/usr/bin/bash",
+          "pid": "3108",
+          "ppid": "2312",
+          "terminal_session_id": "bash",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:30:19.318000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:30:19-3108"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aa9d",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.204000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.wav -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2714",
+          "ppid": "2713",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.842000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2714"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aa9f",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.289000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.wav' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2713",
+          "ppid": "2647",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.842000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2713"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaa1",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.297000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.png -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2741",
+          "ppid": "2740",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.843000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2741"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaa3",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.316000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.png' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "2740",
+          "ppid": "2644",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:40.843000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:40-2740"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaa5",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.323000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.yml' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "2772",
+          "ppid": "2647",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.130000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2772"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaa7",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.337000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.yml -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "2773",
+          "ppid": "2772",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:28:41.131000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:28:41-2773"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaa9",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.353000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.wav' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "3173",
+          "ppid": "3108",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:31:32.554000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:31:32-3173"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaab",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.367000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.wav -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3174",
+          "ppid": "3173",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:31:32.555000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:31:32-3174"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaad",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.377000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.png' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3198",
+          "ppid": "3111",
+          "terminal_session_id": "-",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:32:24.746000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:32:24-3198"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aaaf",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.388000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.png -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3199",
+          "ppid": "3198",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:32:24.747000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:32:24-3199"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aab1",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.397000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "find / -name *.yml -type f -not -path */\\.* -size -500k",
+          "exe": "find",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/find",
+          "integrity_level": "no level",
+          "parent_exe": "dash",
+          "parent_image_path": "/usr/bin/dash",
+          "pid": "3243",
+          "ppid": "3242",
+          "terminal_session_id": "sh",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:33:00.882000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:33:00-3243"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6494c546b699067478f2aab3",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-22T22:03:50.407000+00:00",
+        "host": "6494b6d84e17adbd76d77353",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6494bed7f8cbe7118d3ff302"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "sh -c find / -name '*.yml' -type f -not -path '*/\\.*' -size -500k 2&gt;/dev/null | head -5",
+          "exe": "dash",
+          "fqdn": "linuxatacada-VirtualBox",
+          "hostname": "linuxatacada-VirtualBox",
+          "image_path": "/usr/bin/dash",
+          "integrity_level": "no level",
+          "parent_exe": "splunkd",
+          "parent_image_path": "/splunkd",
+          "pid": "3242",
+          "ppid": "3108",
+          "terminal_session_id": "./splunkd",
+          "user": "linuxatacada-VirtualBox"
+        },
+        "time": "2023-06-22T21:33:00.882000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-linuxatacada-virtualbox-process-create-2023-06-22t21:33:00-3242"
+      }
+    ]
+  },
+  {
+    "collection": "analytic_result",
+    "content": [
+      {
+        "_id": "6494bef44e17adbd76d773bb",
+        "analytic": "6494b6c0f8cbe7118d3ff2fd",
+        "events": [
+          "6494bef44e17adbd76d773b9"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b6c0f8cbe7118d3ff2fd-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773b9"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773bc",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773ba"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773ba"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773c1",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773c0"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773c0"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773c2",
+        "analytic": "6494b6c0f8cbe7118d3ff2fd",
+        "events": [
+          "6494bef44e17adbd76d773bf"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b6c0f8cbe7118d3ff2fd-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773bf"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773c7",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773c5"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773c5"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773c9",
+        "analytic": "6494b6c0f8cbe7118d3ff2fd",
+        "events": [
+          "6494bef44e17adbd76d773c6"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b6c0f8cbe7118d3ff2fd-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773c6"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773cc",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773ca"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773ca"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773cf",
+        "analytic": "6494b6c0f8cbe7118d3ff2fd",
+        "events": [
+          "6494bef44e17adbd76d773ce"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b6c0f8cbe7118d3ff2fd-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773ce"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773d2",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773d0"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773d0"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773d5",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773d4"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773d4"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773d8",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773d7"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773d7"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773db",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773da"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773da"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773de",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773dd"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773dd"
+      },
+      {
+        "_id": "6494bef44e17adbd76d773e1",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef44e17adbd76d773e0"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef44e17adbd76d773e0"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773e4",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773e3"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773e3"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773e7",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773e6"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773e6"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773ea",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773e9"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773e9"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773ed",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773ec"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773ec"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773f0",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773ef"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773ef"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773f3",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773f2"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773f2"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773f6",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773f5"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773f5"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773f9",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773f8"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773f8"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773fc",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773fb"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773fb"
+      },
+      {
+        "_id": "6494bef54e17adbd76d773ff",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d773fe"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d773fe"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77402",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77401"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77401"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77405",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77404"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77404"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77408",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77407"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77407"
+      },
+      {
+        "_id": "6494bef54e17adbd76d7740b",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d7740a"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d7740a"
+      },
+      {
+        "_id": "6494bef54e17adbd76d7740e",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d7740d"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d7740d"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77411",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77410"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77410"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77414",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77413"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77413"
+      },
+      {
+        "_id": "6494bef54e17adbd76d77417",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77416"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77416"
+      },
+      {
+        "_id": "6494bef54e17adbd76d7741a",
+        "analytic": "6494b5c3f8cbe7118d3ff2fc",
+        "events": [
+          "6494bef54e17adbd76d77419"
+        ],
+        "result": {},
+        "session": "6494bed7f8cbe7118d3ff302",
+        "uuid": "AnalyticResult-6494b5c3f8cbe7118d3ff2fc-6494bed7f8cbe7118d3ff302-6494bef54e17adbd76d77419"
+      }
+    ]
+  },
+  {
+    "collection": "session",
+    "content": [
+      {
+        "_id": "6494bed7f8cbe7118d3ff302",
+        "name": "Linux thief operation",
+        "range": {
+          "_cls": "AbsoluteRange",
+          "end": "2023-06-23T01:00:00+00:00",
+          "start": "2023-06-22T19:00:00+00:00"
+        },
+        "state": {
+          "analytics": [
+            {
+              "analytic": "6494b5c3f8cbe7118d3ff2fc",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "6494b6c0f8cbe7118d3ff2fd",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "6494c91ee87419738058f639",
+              "mode": "first-pass"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

