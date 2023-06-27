@@ -45,6 +45,12 @@ sudo apt install kibana
 sudo systemctl enable kibana
 sudo systemctl start kibana
 ```
+### Sigma
+```
+git clone https://github.com/SigmaHQ/sigma
+pip install pysigma
+python -m pipx install sigma-cli
+```
 ### VIRTUAL ENVIRONMENT
 Se van a crear 2 entornos, uno llamado red-team para la parte CALDERA y otro llamado blue-team para la ejecución de CASCADE.
 ```
