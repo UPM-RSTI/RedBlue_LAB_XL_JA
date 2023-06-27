@@ -18,6 +18,27 @@ Para observar que se ha instalado correctamente:
 ```
 sudo systemctl status mongod
 ```
+### ELASTICSEARCH
+Para instalar Elasticsearch se necesita tener instalado Java en el sistema operativo, para ello:
+```
+sudo apt update
+sudo apt install openjdk-11-jdk
+java –version
+```
+Después de instalar Java, se instala Elasticsearch:
+```
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.4-amd64.deb  
+sudo dpkg -i elasticsearch-7.13.4-amd64.deb 
+```
+Cuando ya está instalado en el sistema, se inicia su servicio:
+```
+sudo systemctl start elasticsearch
+```
+Si el usuario quiere corrobar que la instalación ha sido correcta:
+```
+curl -X GET “http:localhost:9200/”
+```
+Cabe destacar que en este repositorio Logstash envía a la dirección IP de la máquina en la que está ejecutándose Elasticsearch. Para ello, se deberá cambiar el archivo .yml de Elasticsearch:
 ### CALDERA
 La instalación de CALDERA se puede encontrar en su repositorio: https://github.com/mitre/caldera 
 ### CASCADE
