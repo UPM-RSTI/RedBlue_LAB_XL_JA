@@ -2,6 +2,7 @@
 # Diseño y desarrollo de un laboratorio de ciberseguridad de tipo Red y Blue Team
 ## Introducción
  Se ha diseñado un laboratorio para la ejecución y detección de adversarios empleando CALDERA para la parte de red team y CASCADE para la parte blue. Además, se dispondrá de los pasos a seguir para la instalación de este laboratorio.
+ Se proporcionan los .bson y .json de las sesiones creadas para el trabajo. Se pueden importar los .bson en CASCADE. Los .json son de utilidad para comprender más en detalle el funcionamiento del modelo de datos CAR.
 ## Arquitectura
 ![image](https://github.com/UPM-RSTI/RedBlue_LAB_XL_JA/assets/117222099/703e2e66-9a06-47b0-9aed-388c53daf302)
 ## Instalación
